@@ -1,1 +1,1 @@
-### https://maximDemidov1.github.io/rsschool-cv/cv
+### https://maximdemidov1.github.io/rsschool-cv/
