@@ -6,27 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400;1,500&display=swap" rel="stylesheet">
 </head>
 <body class="">
     <header class="header">
         <div class="container">
-            <nav>Summary</nav>
-            <nav>Contacts</nav>
-            <nav>Skills</nav>
-            <nav>Code Example</nav>
-            <nav>Education</nav>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#Summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#Code Example" class="nav-link">Code Example</a></li>
+                    <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+                </ul>
         </div>
     </header>
     <main>
-        <div class="container">
-            <img class="image-avatar" src="img/avatar1.jpg">
-            <h1>Maxim Demidov</h1>
-            <h2>Front-End Developer</h2>
+        <div class="container main-container">
+            <div class="name-ava">
+                <img class="image-avatar" src="img/avatar1.jpg">
+                <h1>Maxim Demidov</h1>
+                <h2>Junior Front-End developer</h2>
+                <hr>
+            </div>
+            <section class="section" id="Summary">
+                <h2>Summary</h2>
+            </section>
+            <section class="section" id="Contacts">
+                <h2>Contacts</h2>
+            </section>
+            <section class="section" id="Skills">
+                <h2>Skills</h2>
+            </section>
+            <section class="section" id="Code Example">
+                <h2>Code Example</h2>
+            </section>
+            <section class="section" id="Education">
+                <h2>Education</h2>
+            </section>
         </div>
     </main>
     <footer class="footer">
         <div class="container">
-            2022
+            <ul>
+                <li><a href="https://github.com/MaximDemidov1" class="nav-list">GH-page</a></li>
+                <li class="nav-list">2022</li>
+                <li><img src="img/rs_school_js.svg" class="logo nav-list"></li>
+            </ul>
         </div>
     </footer>
 </body>
